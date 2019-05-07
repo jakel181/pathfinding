@@ -5,7 +5,7 @@ var ctx = null;
 // an image containing all sprites
 var spritesheet = null;
 // true when the spritesheet has been downloaded
-var spritesheetLoaded = false;
+var spritesheetLoaded = true;
 
 // the world grid: a 2d array of tiles
 var world = [[]];
