@@ -49,9 +49,9 @@ function loaded()
 }
 
 // fill the world with walls
-function createWorld()
+function newPath()
 {
-  console.log('Creating world...');
+  console.log('Creating path...');
   
   // create emptiness
   for (var x=0; x < worldWidth; x++)
