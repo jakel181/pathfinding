@@ -3,7 +3,7 @@ var canvas = null;
 // the canvas 2d context
 var ctx = null;
 // an image containing all sprites
-var spritesheet = null;
+var spritesheet = Spritesheet.png;
 // true when the spritesheet has been downloaded
 var spritesheetLoaded = true;
 
