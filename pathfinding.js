@@ -36,7 +36,7 @@ function onload()
   canvas.addEventListener("click", canvasClick, false);
   ctx = canvas.getContext("2d");
   spritesheet = new Image();
-  spritesheet.src = 'spritesheet.png';
+  spritesheet.src = 'Spritesheet.png';
   spritesheet.onload = loaded;
 }
 
